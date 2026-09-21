@@ -30,6 +30,7 @@ python3 code/ex2_6_consumption.py
 |---|---|---|---|
 | `ex2_6_consumption.py` | U03 | 例 2.6.1 一元回归全流程：β̂、SE、t、R²、σ̂²、平方和分解、正规方程数值特征、两种预测区间 | ✅ |
 | `unbiased_vs_consistent.py` | §2.3 二 | 蒙特卡洛对比三个估计量：无偏+一致 / 无偏但不一致 / 有偏但一致。演示两条性质互不蕴含 | ✅ |
+| `why_condition_on_all_X.py` | §2.3 | 把 X₂ 钉死、其余 X 随机，看 k₂ 仍在 −3.0~+3.9 之间跑 —— 演示为何条件必须是全部 X | ✅ |
 | `ch3_multiple.py` | U09 | 多元 OLS：矩阵形式 β̂=(X'X)⁻¹X'Y、R̄²、F 检验 | 待写 |
 | `ch4_multicollinearity.py` | U22 | VIF、条件数、逐步回归 | 待写 |
 | `ch4_heteroskedasticity.py` | U25 | G-Q / White 检验、WLS、White 稳健标准误 | 待写 |
